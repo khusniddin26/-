@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+.love 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.love h1
+{
+    position: absolute;
+    font-size: 1.8em;
+    color: orange;
+    margin-top: 7rem;
+}
+
+
+
+
+.love h2
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: 10rem;
+}
+
+
+
+
+.love h3
+{
+    position: absolute;
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: 13rem;
+    animation: changeColor2 linear 2s infinite alternate;
+}
+
+
+
+
+@keyframes changeColor2
+{
+    0%
+    {
+        color: #fff;
+    }
+    50%
+    {
+        color: #000;
+    }
+    100%
+    {
+        color: #fff;
+    }
+}
+
+
+
+
+
+.love a
+{
+    position: absolute;
+    display: inline-block;
+    padding: 13px 45px;
+    background: #fff;
+    color: #000;
+    font-size: 1.1em;
+    border-radius: 25px;
+    margin-top: 17rem;
+}
+
+
+
+
+
+.love h4
+{
+    position: absolute;
+    font-size: 4em;
+    color: #fff;
+    margin-top: 25rem;
+}
+
+
+
+
+
+/*******End*******/
+
+
+.end 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.end .word 
+{
+    position: absolute;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+
+
+.end p 
+{
+    position: absolute;
+    font-size: 0.8em;
+    color: #fff;
+    margin-top: 28rem;
+}
+
+
+
+
+
+
+}
+
+
+
+
